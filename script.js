@@ -1,0 +1,40 @@
+//creo un array con 5 oggetti bici
+
+var gruppoBici = [
+
+    
+    {nome: "bici1" , peso: 30},
+    {nome: "bici2" , peso: 33},
+    {nome: "bici2" , peso: 28},
+    {nome: "bici3" , peso: 31},
+    {nome: "bici4" , peso: 27},
+]
+
+console.log(gruppoBici)
+
+//creo un ciclo for per recuperare 
+//poi aggiungo i singoli pesi in un array
+var pesiBici = [];
+
+for (let i=0; i<gruppoBici.length; i++){
+
+    var pesoBiciSingola = (gruppoBici[i].peso)
+    pesiBici.push(pesoBiciSingola)
+
+}
+
+//ordino i numeri dal più piccolo al più grande
+
+
+pesiBici.sort();
+console.log(pesiBici)
+
+//recupero il più piccolo usando la posizione 0
+var pesoPiuBasso = pesiBici[0]
+console.log(`Il peso più basso tra tutte le bici è ${pesoPiuBasso} kg`)
+
+
+
+
+
+
