@@ -1,3 +1,4 @@
+//esercizio uno
 //creo un array con 5 oggetti bici
 
 var gruppoBici = [
@@ -34,7 +35,18 @@ var pesoPiuBasso = pesiBici[0]
 console.log(`Il peso più basso tra tutte le bici è ${pesoPiuBasso} kg`)
 
 
+//esercizio due
+//creo array di 5 squadre 
 
+var gruppoSquadre = [
 
+    
+    {nome: "squadra1" , punti: 0, falliSubiti: 0},
+    {nome: "squadra2" , punti: 0, falliSubiti: 0},
+    {nome: "squadra3" , punti: 0, falliSubiti: 0},
+    {nome: "squadra4" , punti: 0, falliSubiti: 0},
+    {nome: "squadra5" , punti: 0, falliSubiti: 0},
+
+]
 
 
